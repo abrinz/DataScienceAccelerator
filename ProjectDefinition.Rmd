@@ -1,0 +1,13 @@
+---
+title: "ProjectDefinition"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+Question:  I'm going to be researching what features can predict a cancellation for Novant.
+
+Domain context: Novant gets paid on a completed appointment, so if a patient schedules one and it gets cancelled, it means lost money for RV. If I can identify what makes an appointment likely to be cancelled, then we could change what certain users see when coming to the Physician Finder. One of Novant's hypotheses is that there are clinics who are cancelling an inordinate amount of open scheduling appointments. I've talked to the Novant team and they are excited about the idea of an analysis.
